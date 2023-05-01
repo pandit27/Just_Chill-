@@ -1,15 +1,4 @@
-/******************************************************************
-Theme Name: Travel 
-Description: 
-Author: Colorlib
-Author URI: 
-Version: 1.0
-Created: 
-******************************************************************/
-/*------------------------------------------------------------------
-
-
--------------------------------------------------------------------*/
+/*-------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -2483,12 +2472,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/hero-bg.jpg) center;
+  background: url('https://images.pexels.com/photos/584302/pexels-photo-584302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center;
   background-size: cover;
 }
 
 .banner-area .overlay-bg {
-  background: rgba(4, 9, 30, 0.4);
+  background: rgba(4, 9, 30, 0.109);
 }
 
 @media (max-width: 767px) {
