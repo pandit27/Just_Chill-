@@ -580,7 +580,7 @@
       top: -8px;
       left: 20px;
       display: inline-block;
-      background: #f15d30;
+      background: rgb(4 53 120);
       color: #fff;
       padding: 8px;
       font-size: 16px;
@@ -600,14 +600,15 @@
         height: 0;
         border-style: solid;
         border-width: 0 0 8px 8px;
-        border-color: transparent transparent #c7390d transparent; }
+        border-color: transparent transparent rgb(4 53 120) transparent; }
       .project-wrap .img .price:before {
         width: 0;
         right: -8px;
         height: 0;
         border-style: solid;
         border-width: 8px 0 0 8px;
-        border-color: transparent transparent transparent #c7390d; }
+        border-color: transparent transparent transparent rgb(4 53 120);
+      }
   .project-wrap.hotel .img {
     height: 320px; }
   .project-wrap .text {

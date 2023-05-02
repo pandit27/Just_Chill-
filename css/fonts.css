@@ -1,9 +1,16 @@
 .f-stylish {
-    font-family: cursive !important;
+  font-family: cursive !important;
 }
 
 .h-effect1:hover {
-    opacity: 0.9;
-    border-radius: 10px;
-};
+  opacity: 0.9;
+  border-radius: 10px;
+}
 
+.h-effect-2 {
+  color: aliceblue !important;
+}
+
+.h-effect-2:hover {
+  color: rgb(17, 118, 220) !important;
+}
