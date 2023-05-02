@@ -1,0 +1,9 @@
+.f-stylish {
+    font-family: cursive !important;
+}
+
+.h-effect1:hover {
+    opacity: 0.9;
+    border-radius: 10px;
+};
+
