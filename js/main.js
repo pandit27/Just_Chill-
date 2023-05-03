@@ -328,3 +328,39 @@ window.onload = function() {
 	css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
 	document.body.appendChild(css);
 };
+
+// statistics
+$.fn.jQuerySimpleCounter = function( options ) {
+	var settings = $.extend({
+	  start:  0,
+	  end:    100,
+	  easing: 'swing',
+	  duration: 400,
+	  complete: ''
+	}, options );
+  
+	var thisElement = $(this);
+	var elementReached = false;
+  
+	$(window).on('scroll', function() {
+	  if (elementReached === false && $(window).scrollTop() + $(window).height() > thisElement.offset().top) {
+		elementReached = true;
+  
+		$({count: settings.start}).animate({count: settings.end}, {
+		  duration: settings.duration,
+		  easing: settings.easing,
+		  step: function() {
+			var mathCount = Math.ceil(this.count);
+			thisElement.text(mathCount);
+		  },
+		  complete: settings.complete
+		});
+	  }
+	});
+  };
+  
+  $('#number1').jQuerySimpleCounter({end: 1584, duration: 1000});
+  $('#number2').jQuerySimpleCounter({end: 6894, duration: 1000});
+  $('#number3').jQuerySimpleCounter({end: 80, duration: 2000});
+  $('#number4').jQuerySimpleCounter({end: 50, duration: 2000});
+  
