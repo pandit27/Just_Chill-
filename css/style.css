@@ -1665,7 +1665,7 @@ textarea.form-control {
   height: 1vh;
   width:100%;
   position:absolute;
-  top:1040vh;
+  top:1090vh;
   left:0;
   z-index: -1;
   background: #015871;
@@ -1788,10 +1788,6 @@ textarea.form-control {
 .main-timeline .timeline-content:before,.main-timeline .timeline:nth-child(2n) .timeline-content:before{left:99px}
 .main-timeline .timeline-content:after,.main-timeline .timeline:nth-child(2n) .timeline-content:after{left:65px}
 }
-
-
-
-/******************* Timeline Demo - 4 *****************/
 .main-timeline4{overflow:hidden;position:relative}
 .main-timeline4:before{content:"";width:5px;height:70%;background:#333;position:absolute;top:70px;left:50%;transform:translateX(-50%)}
 .main-timeline4 .timeline-content:before,.main-timeline4 .timeline:before{top:50%;transform:translateY(-50%);content:""}
