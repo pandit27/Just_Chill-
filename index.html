@@ -64,6 +64,15 @@
 	</nav>
 	<!-- navbar end -->
 
+	<!-- whatsapp popup start -->
+    <div class="whatsapp-popup">
+        <a href="https://api.whatsapp.com/send?phone=919315225570&text=Hello,its%20great%20to%20know%20about%20scubadivingcenter.in%20Help%20me%20with%20the%20package%20details%20and%20further%20process."
+            target="_blank">
+            <img src="images/whatsapp_logo.webp" alt="whatsapp icon" loading="lazy" class="w-100 img-fluid" />
+        </a>
+    </div>
+    <!-- whatsapp popup end -->
+
 	<!-- hero section start -->
 	<div class="hero-wrap js-fullheight"
 		style="background-image: url('https://images.pexels.com/photos/584302/pexels-photo-584302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');">
@@ -74,10 +83,11 @@
 					<span class="subheading f-stylish">Welcome to Scuba Diving Center</span>
 					<!-- <h1 class="mb-4">Dive The Ocean with Us</h1> -->
 					<h1 style="color: #fff;">
-						<a href="#" style="color: white !important;" class="typewrite" data-period="2000" data-type='[ "Dive The Ocean With Us", "Tour Goa With Us", "", "Dive into adventure today!" ]'>
-						  <span class="wrap"></span>
+						<a href="#" style="color: white !important;" class="typewrite" data-period="2000"
+							data-type='[ "Dive The Ocean With Us", "Tour Goa With Us", "", "Dive into adventure today!" ]'>
+							<span class="wrap"></span>
 						</a>
-					  </h1>
+					</h1>
 					<p class="caps">Explore the Goa's wonders with us. Dive into adventure today!</p>
 				</div>
 				<a href="https://vimeo.com/45830194"
@@ -1023,7 +1033,12 @@
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
-
+	<!-- whatsapp script -->
+	<script>
+		setTimeout(function () {
+			document.querySelector(".whatsapp-popup").style.opacity = "1";
+		}, 1000);
+	</script>
 </body>
 
 </html>
