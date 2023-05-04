@@ -1707,6 +1707,18 @@ textarea.form-control {
 /* ocean wave end */
 
 /* whatsapp start */
+@media only screen and (max-width: 600px) {
+  .whatsapp-popup {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .whatsapp-popup img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 .whatsapp-popup {
   position: fixed;
   bottom: 20px;
@@ -1880,19 +1892,19 @@ textarea.form-control {
 }
 
 .projectFactsWrap .item:nth-child(1){
-  background: rgb(16, 31, 46);
+  background: #061138;
 }
 
 .projectFactsWrap .item:nth-child(2){
-  background: rgb(18, 34, 51);
+  background: #061138;
 }
 
 .projectFactsWrap .item:nth-child(3){
-  background: rgb(21, 38, 56);
+  background: #061138;
 }
 
 .projectFactsWrap .item:nth-child(4){
-  background: rgb(23, 44, 66);
+  background: #061138;
 }
 
 .projectFactsWrap .item p.number{
@@ -1927,7 +1939,7 @@ textarea.form-control {
 
 
 .projectFactsWrap .item:hover i, .projectFactsWrap .item:hover p{
-  color: white;
+  color: #d5ae82;
 }
 
 .projectFactsWrap .item:hover span{
@@ -1940,3 +1952,7 @@ textarea.form-control {
   }
 }
 /* statistics end */
+
+/* popular sports start */
+
+/* popular sports end */
