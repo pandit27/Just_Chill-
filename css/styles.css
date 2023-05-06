@@ -1,4 +1,11 @@
 /* goa tour package btn */
 .btn-tour-packages:hover {
-    background-color: #035390 !important;
+  background-color: #035390 !important;
+}
+
+/* goa tour package offer */
+@media (max-width: 767.98px) {
+  .goa-tour-package-sale {
+    margin-left: 12rem !important;
+  }
 }
