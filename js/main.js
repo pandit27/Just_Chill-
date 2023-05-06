@@ -364,3 +364,28 @@ $.fn.jQuerySimpleCounter = function( options ) {
   $('#number3').jQuerySimpleCounter({end: 80, duration: 2000});
   $('#number4').jQuerySimpleCounter({end: 50, duration: 2000});
   
+/* goa packages carousel start */
+$(".project-carousel").owlCarousel({
+	autoplay: true,
+	smartSpeed: 1000,
+	margin: 25,
+	loop: true,
+	nav: false,
+	dots: true,
+	dotsData: true,
+	responsive: {
+		0: {
+			items: 1
+		},
+		768: {
+			items: 2
+		},
+		992: {
+			items: 3
+		},
+		1200: {
+			items: 4
+		}
+	}
+});
+/* goa packages carousel end */
