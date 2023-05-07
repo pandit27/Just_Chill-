@@ -15,10 +15,12 @@
   transition: all 0.3s ease;
 }
 
-.project-wrap .img .price-deals:after, .project-wrap .img .price-deals:before {
-    position: absolute;
-    top: 0;
-    content: ''; }
+.project-wrap .img .price-deals:after,
+.project-wrap .img .price-deals:before {
+  position: absolute;
+  top: 0;
+  content: "";
+}
 
 .project-wrap .img .price-deals:after {
   left: -8px;
@@ -37,3 +39,10 @@
   border-width: 8px 0 0 8px;
   border-color: transparent transparent transparent #48bf84;
 }
+
+/* hot deals details start */
+.details {
+  color: #556575;
+  font-size: 16px;
+}
+/* hot deals details end */
