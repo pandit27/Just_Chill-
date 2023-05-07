@@ -1,15 +1,39 @@
 .price-deals {
+  position: absolute;
+  top: -8px;
+  left: 20px;
+  display: inline-block;
+  background: #48bf84;
+  color: #fff;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.project-wrap .img .price-deals:after, .project-wrap .img .price-deals:before {
     position: absolute;
-    top: -8px;
-    left: 20px;
-    display: inline-block;
-    background: #48bf84;
-    color: #fff;
-    padding: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
+    top: 0;
+    content: ''; }
+
+.project-wrap .img .price-deals:after {
+  left: -8px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 8px 8px;
+  border-color: transparent transparent #48bf84 transparent;
+}
+
+.project-wrap .img .price-deals:before {
+  width: 0;
+  right: -8px;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 0 0 8px;
+  border-color: transparent transparent transparent #48bf84;
+}
