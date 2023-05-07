@@ -190,12 +190,18 @@
   text-align: center; }
 
   .hero-section {
-    height: 50vh;
+    height: 80vh;
     min-height: 400px;
     position: relative;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+  }
+
+  @media (max-width: 767.98px) {
+    .hero-section {
+      height: 50vh;
+    }
   }
   
   .hero-section .overlay {
