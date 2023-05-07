@@ -1,4 +1,4 @@
 This is a tour and travels website.
 
-Live Link 👇
+Live Link 👉
 https://goscuba.netlify.app/
