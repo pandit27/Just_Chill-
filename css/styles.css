@@ -27,3 +27,32 @@
   color: #004375 !important;
 }
 /* price color end */
+
+/* minimum width 100 on laptop screen start */
+@media (min-width: 767.98px) {
+  .wf-l {
+    width: 19vw;
+    margin: auto auto;
+  }
+}
+
+@media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{
+  .wf-l {
+    width: 19vw;
+    margin: auto auto;
+  }
+}
+
+@media only screen   
+and (min-width: 1030px)   
+and (max-width: 1366px)  
+{
+  .wf-l {
+    width: 19vw;
+    margin: auto auto;
+  }
+}
+/* minimum width 100 on laptop screen end */
