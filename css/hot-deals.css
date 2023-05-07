@@ -1,0 +1,15 @@
+.price-deals {
+    position: absolute;
+    top: -8px;
+    left: 20px;
+    display: inline-block;
+    background: #48bf84;
+    color: #fff;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
