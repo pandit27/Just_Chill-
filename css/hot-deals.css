@@ -43,6 +43,6 @@
 /* hot deals details start */
 .details {
   color: #556575;
-  font-size: 16px;
+  font-size: 16px !important;
 }
 /* hot deals details end */
