@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Tajawal");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* timeline start */
+.timeline-steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.timeline-steps .timeline-step {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .timeline-steps .timeline-step:not(:last-child):after {
+    content: "";
+    display: block;
+    border-top: 0.25rem dotted #3b82f6;
+    width: 3.46rem;
+    position: absolute;
+    left: 7.5rem;
+    top: 0.3125rem;
+  }
+  .timeline-steps .timeline-step:not(:first-child):before {
+    content: "";
+    display: block;
+    border-top: 0.25rem dotted #3b82f6;
+    width: 3.8125rem;
+    position: absolute;
+    right: 7.5rem;
+    top: 0.3125rem;
+  }
+}
+
+.timeline-steps .timeline-content {
+  width: 10rem;
+  text-align: center;
+}
+
+.timeline-steps .timeline-content .inner-circle {
+  border-radius: 1.5rem;
+  height: 1rem;
+  width: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b82f6;
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+  content: "";
+  background-color: #3b82f6;
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  min-width: 3rem;
+  border-radius: 6.25rem;
+  opacity: 0.5;
+}
+/* timeline end */
+
+/* accordian start */
+#accordion-style-1 h1,
+#accordion-style-1 a {
+  color: #d5ae82;
+}
+#accordion-style-1 .btn-link {
+  font-weight: 400;
+  color: gray;
+  background-color: transparent;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+#accordion-style-1 .card-body {
+  border-top: 2px solid #d5ae82;
+}
+
+#accordion-style-1 .card-header .btn.collapsed .fa.main {
+  display: none;
+}
+
+#accordion-style-1 .card-header .btn .fa.main {
+  background: #d5ae82;
+  padding: 13px 11px;
+  color: #ffffff;
+  width: 35px;
+  height: 41px;
+  position: absolute;
+  left: -1px;
+  top: 10px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  display: block;
+}
+/* accordian end */
