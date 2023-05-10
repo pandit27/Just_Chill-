@@ -333,7 +333,7 @@
     animation: border-transform 6s linear infinite;
   }
   .card-back .pricing-wrap h4:before{
-    background: linear-gradient(217deg, #648946, #a3c984);
+    background: #35a1a9;
   }
   @keyframes border-transform{
       0%,100% { border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%; } 
@@ -547,3 +547,12 @@
       display: block;
   }
 /* special card end */
+
+/* bg ocean start */
+.bg-ocean1 {
+  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.pixabay.com/photo/2016/12/17/14/33/wave-1913559__340.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+}
+/* bg ocean end */
