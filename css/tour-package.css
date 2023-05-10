@@ -556,3 +556,9 @@
   height: 10vh;
 }
 /* bg ocean end */
+
+/* btn hover black bg start */
+.call-to-book:hover {
+  background-color: #000 !important;
+}
+/* btn hover black bg end */
