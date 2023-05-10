@@ -623,8 +623,11 @@
   height: 45px;
   border-radius: 0.25rem;
   background-color: #fff;
-  color: white;
+  /* color: white; */
   font-size: 18px;
+  font-weight: 700;
+  color: #004375;
+  font-size: 30px;
   font-weight: 700;
 }
 
