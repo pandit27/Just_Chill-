@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("path/to/font/SFProDisplay-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* You can define additional styles for different font weights and styles */
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("path/to/font/SFProDisplay-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
 .f-stylish {
   font-family: cursive !important;
 }
