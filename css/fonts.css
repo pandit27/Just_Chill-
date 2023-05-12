@@ -41,8 +41,8 @@
   }
 }
 
-.sf-font {
-  font-family: "SF Pro Display", sans-serif;
+.cursive-font {
+  font-family: "cursive", sans-serif !important;
 }
 
 .zoom-hover:hover {
