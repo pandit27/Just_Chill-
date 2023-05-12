@@ -34,10 +34,15 @@
   border: none;
   border-radius: 1rem;
   padding: 1.5%;
-  background: #dc3545;
-  font-weight: 600;
+  background: #000;
+  font-weight: 200;
   color: #fff;
   cursor: pointer;
+}
+.contact-form .btnContact:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
 }
 .btnContactSubmit {
   width: 50%;
