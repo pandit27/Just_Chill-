@@ -19,7 +19,7 @@
   height: 40vh;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 770px) {
   .h-40vh {
     height: 20vh !important;
   }
