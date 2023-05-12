@@ -25,6 +25,10 @@
   }
 }
 
+.sf-font {
+  font-family: "SF Pro Display", sans-serif;
+}
+
 .zoom-hover:hover {
   transform: scale(1.1);
 }
