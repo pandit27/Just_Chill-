@@ -228,7 +228,6 @@
 	};
 	contentWayPoint();
 
-
 	// magnific popup
 	$('.image-popup').magnificPopup({
 		type: 'image',
@@ -265,10 +264,6 @@
 		'format': 'm/d/yyyy',
 		'autoclose': true
 	});
-
-
-
-
 })(jQuery);
 
 // typing animation
