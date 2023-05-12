@@ -14,3 +14,7 @@
 .h-effect-2:hover {
   color: rgb(17, 118, 220) !important;
 }
+
+.h-40vh {
+  height: 40vh;
+}
