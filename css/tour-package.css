@@ -641,9 +641,11 @@
   left: 8px;
   padding: 4px 8px;
   border-radius: 0.25rem;
-  background-color: #c89b3f;
+  background-color: #fff;
+  color: #000;
   font-size: 14px;
   font-weight: 700;
+  border: 2px solid silver;
 }
 
 @media (min-width: 40rem) {
