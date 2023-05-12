@@ -2,6 +2,22 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("path/to/font/SFProDisplay-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* You can define additional styles for different font weights and styles */
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("path/to/font/SFProDisplay-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
 /* timeline start */
 .timeline-steps {
   display: flex;
