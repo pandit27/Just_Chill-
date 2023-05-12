@@ -18,3 +18,9 @@
 .h-40vh {
   height: 40vh;
 }
+
+@media (max-width: 780px) {
+  .h-40vh {
+    height: 20vh !important;
+  }
+}
