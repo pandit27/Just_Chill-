@@ -23,4 +23,13 @@
   .h-40vh {
     height: 20vh !important;
   }
+  .zoom-hover:hover {
+    width: 120% !important;
+    height: 25vh;
+  }
+}
+
+.zoom-hover:hover {
+  width: 120% !important;
+  height: 45vh;
 }
