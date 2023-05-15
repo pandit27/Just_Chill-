@@ -2078,7 +2078,11 @@ textarea.form-control {
 
 /* flip card start */
 .flip-card-container {
-  display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 4px;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 4px;
 }
 
 @media (max-width: 767.98px) {
