@@ -2077,5 +2077,49 @@ textarea.form-control {
 /* bestselling packages end */
 
 /* flip card start */
+.card-container {
+  perspective: 1000px;
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.front,
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+  background-color: #fff;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background-color: #ddd;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+
+/* Fix the shaking issue */
+.card:hover .back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .front {
+  transform: rotateY(0deg);
+}
 
 /* flip card end */
