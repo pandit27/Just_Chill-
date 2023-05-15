@@ -2097,6 +2097,10 @@ textarea.form-control {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .sectionClass {
+    display: none;
+  }
 }
 
 .flip-card {
