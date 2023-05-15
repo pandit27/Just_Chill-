@@ -2081,6 +2081,12 @@ textarea.form-control {
   display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 4px;
 }
 
+@media (max-width: 767.98px) {
+  .flip-card-container {
+
+  }
+}
+
 .flip-card {
   background-color: transparent;
   width: 100vw;
