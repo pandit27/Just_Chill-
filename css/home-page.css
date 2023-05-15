@@ -150,6 +150,13 @@ hr {
 }
 
 .p1-price {
-  font-size: 20px; font-weight: 700; background-color: #e84a5f; color: white; height: fit-content; padding-left: 10px; padding-right: 10px; border-radius: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #e84a5f;
+  color: white;
+  height: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
 }
 /* packages end */
