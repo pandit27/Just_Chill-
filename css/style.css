@@ -2083,11 +2083,13 @@ textarea.form-control {
   justify-content: center; 
   align-items: center; 
   gap: 4px;
+  display: none;
 }
 
 @media (max-width: 767.98px) {
   .flip-card-container {
     flex-wrap: wrap;
+    display: block;
   }
 }
 
@@ -2125,7 +2127,8 @@ textarea.form-control {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background: #e84a5f; color: white;
+  background: #e84a5f; 
+  color: white;
 }
 
 /* Style the back side */
