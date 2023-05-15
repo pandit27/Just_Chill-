@@ -143,4 +143,8 @@ hr {
 .card_text p:last-child {
   margin: 0;
 }
+
+.start {
+  color: #ffda00;
+}
 /* packages end */
