@@ -119,22 +119,21 @@
 
   <script>
     // Initialize the WhatsApp Chat Popup Modal
-$(document).ready(function() {
-  // Show the WhatsApp Chat Popup Modal when the button is clicked
-  $('.whatsapp-btn').click(function() {
-    $('#whatsapp-modal').modal('show');
-  });
+    $(document).ready(function () {
+      // Show the WhatsApp Chat Popup Modal when the button is clicked
+      $('.whatsapp-btn').click(function () {
+        $('#whatsapp-modal').modal('show');
+      });
 
-  // Send the WhatsApp message when the Send button is clicked
-  $('#whatsapp-send').click(function() {
-    // Get the WhatsApp message text
-    var message = $('#whatsapp-message').val();
+      // Send the WhatsApp message when the Send button is clicked
+      $('#whatsapp-send').click(function () {
+        // Get the WhatsApp message text
+        var message = $('#whatsapp-message').val();
 
-    // Open the WhatsApp chat window with the message text
-    window.open('https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER&text=' + encodeURIComponent(message));
-  });
-});
-
+        // Open the WhatsApp chat window with the message text
+        window.open('https://api.whatsapp.com/send?phone=YOUR_PHONE_NUMBER&text=' + encodeURIComponent(message));
+      });
+    });
   </script>
 
   <!-- hero section start -->
