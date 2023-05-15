@@ -404,3 +404,11 @@ $(document).ready(function () {
 		}
 	})
 });
+
+/* card flipping start */
+$(document).ready(function() {
+	$('.card').click(function() {
+	  $(this).toggleClass('card-flipped');
+	});
+  });  
+/* card flipping end */
