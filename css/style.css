@@ -2111,8 +2111,7 @@ textarea.form-control {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background: #e84a5f; color: white;
 }
 
 /* Style the back side */
