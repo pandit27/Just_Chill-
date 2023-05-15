@@ -2077,9 +2077,13 @@ textarea.form-control {
 /* bestselling packages end */
 
 /* flip card start */
+.flip-card-container {
+  display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 4px;
+}
+
 .flip-card {
   background-color: transparent;
-  width: 350px;
+  width: 100vw;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
