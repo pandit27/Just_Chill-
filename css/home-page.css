@@ -15,6 +15,7 @@
 .cards_item {
   display: flex;
   padding: 1rem;
+  
 }
 
 .card_image {
