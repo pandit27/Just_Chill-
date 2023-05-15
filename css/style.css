@@ -2077,7 +2077,7 @@ textarea.form-control {
 /* bestselling packages end */
 
 /* flip card start */
-.container {
+.card-container {
   display: flex;
   justify-content: center;
   align-items: center;
