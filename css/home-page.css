@@ -169,4 +169,10 @@
 .fap {
   padding: 4px;
 }
+
+@media (max-width: 767.98px) {
+  .f-small {
+    font-size: 13px !important;
+  }
+}
 /* packages end */
