@@ -76,6 +76,11 @@ textarea {
   resize: none;
 }
 
+.section-testimonials {
+	align-items: center;
+	padding: 50px 60px;	
+}
+
 .bg-section h2 {
   font-family: "Leckerli One", cursive;
   text-transform: none;
