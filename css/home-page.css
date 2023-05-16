@@ -130,7 +130,7 @@
     content: ""; */
 }
 
-hr {
+.hr-2 {
   margin: 24px auto;
   width: 50px;
   border-top: 2px solid #c89b3f;
