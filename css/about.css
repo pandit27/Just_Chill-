@@ -57,12 +57,7 @@
 /* form end */
 
 /* testimonials start */
-.h1-t,
-.h2-t,
-.h3-t,
-.h4-t,
-.h5-t,
-.h6-t {
+.heading-t {
 	text-transform: none;
 	font-weight: 600;
 	font-family: 'Leckerli One', cursive;
