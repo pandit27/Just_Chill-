@@ -67,67 +67,65 @@
 }
 
 .hr-h3s {
-	border: 3px solid #E94B3C;
-	width: 70px;
-	margin: 0 auto 35px auto;
+  border: 3px solid #e94b3c;
+  width: 70px;
+  margin: 0 auto 35px auto;
 }
 
 textarea {
-	resize: none;
+  resize: none;
 }
 
 .bg-section h2 {
-	font-family: 'Leckerli One', cursive;
-	text-transform: none;
-	margin: 50px 0;
-	padding: 25px 20px;
-	border-radius: 50px;
+  font-family: "Leckerli One", cursive;
+  text-transform: none;
+  margin: 50px 0;
+  padding: 25px 20px;
+  border-radius: 50px;
 }
 
-
-
 @keyframes slide {
-	0% {
-		opacity: 0;
-		transform: translateX(50%);
-	}
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0%);
-	}
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
 }
 
 @-webkit-keyframes slide {
-	0% {
-		opacity: 0;
-		-webkit-transform: translateX(50%);
-		transform: translateX(50%);
-	}
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
 
-	100% {
-		opacity: 1;
-		-webkit-transform: translateX(0%);
-		transform: translateX(0%);
-	}
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
 }
 
 /* ******* Testimonials ******* */
 #testimonials .hr-testimonials {
-	border: 1px solid #222;
-	width: 50%;
-	margin: 0 auto 35px auto;
-  font-family: 'Leckerli One', cursive;
+  border: 1px solid #222;
+  width: 50%;
+  margin: 0 auto 35px auto;
+  font-family: "Leckerli One", cursive;
 }
 
 #testimonials h3 {
-	color: #353535;
-	margin: 40px auto;
-  font-family: 'Leckerli One', cursive;
+  color: #353535;
+  margin: 40px auto;
+  font-family: "Leckerli One", cursive;
 }
 
 #testimonials .carousel {
-	float: none;
+  float: none;
   margin: auto;
 }
 /* testimonials end */
