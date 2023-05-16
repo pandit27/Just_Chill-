@@ -71,4 +71,8 @@
 	width: 70px;
 	margin: 0 auto 35px auto;
 }
+
+textarea {
+	resize: none;
+}
 /* testimonials end */
