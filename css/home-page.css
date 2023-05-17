@@ -181,41 +181,20 @@
 .wave-section {
   position: relative;
   width: 100%;
-  height: 400px;
-  overflow: hidden;
+  height: 70vh;
   background-color: #2196F3;
+  overflow: hidden;
+  clip-path: polygon(0% 40%, 25% 55%, 50% 35%, 75% 55%, 100% 40%, 100% 100%, 0% 100%);
+  border-radius: 50% 50% 0 0;
 }
 
 .wave {
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100px;
-  background-color: #64B5F6;
-  transform-origin: bottom;
-  animation: waveAnimation 2s linear infinite;
+  height: 100%;
+  background-color: #64B5F6; */
 }
 
-@keyframes waveAnimation {
-  0% {
-    transform: scaleY(1);
-  }
-  50% {
-    transform: scaleY(0.7);
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
-
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 24px;
-  text-align: center;
-}
 /* ocean section end */
