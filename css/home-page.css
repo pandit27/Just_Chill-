@@ -237,7 +237,7 @@
 }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  transform: rotate3d(0, 1, 0, 180deg);
 }
 
 .flip-card-front,
@@ -256,6 +256,6 @@
 .flip-card-back {
   background-color: dodgerblue;
   color: white;
-  transform: rotateY(180deg);
+  transform: rotate3d(0, 1, 0, 180deg);
 }
 /* flip card end */
