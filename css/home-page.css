@@ -181,4 +181,10 @@
 .wave-section {
   
 }
+
+.elementor-shape .elementor-shape-fill {
+  fill: #fff;
+  transform-origin: center;
+  transform: rotateY(0deg);
+}
 /* ocean section end */
