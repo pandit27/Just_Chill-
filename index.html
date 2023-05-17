@@ -449,9 +449,9 @@
 	<!-- packages end -->
 
 	<!-- tour packages start -->
-	<div class="container py-4" style="display:flex; justify-content: space-evenly; ">
+	<div class="container tp-card py-4" style="display:flex; justify-content: space-evenly;">
 		<!-- card 1 -->
-		<div class="card" style="width: 22vw;">
+		<div class="card">
 			<img src="https://cdn.pixabay.com/photo/2018/12/18/10/41/india-3882103_640.jpg" class="card-img-top"
 				alt="Goa">
 			<span class="card-sticker">30% off</span>
@@ -470,7 +470,7 @@
 			</div>
 		</div>
 		<!-- card 1 -->
-		<div class="card" style="width: 22vw;">
+		<div class="card">
 			<img src="https://cdn.pixabay.com/photo/2018/12/18/10/41/india-3882103_640.jpg" class="card-img-top"
 				alt="Goa">
 			<span class="card-sticker">30% off</span>
@@ -489,7 +489,7 @@
 			</div>
 		</div>
 		<!-- card 1 -->
-		<div class="card" style="width: 22vw;">
+		<div class="card">
 			<img src="https://cdn.pixabay.com/photo/2018/12/18/10/41/india-3882103_640.jpg" class="card-img-top"
 				alt="Goa">
 			<span class="card-sticker">30% off</span>
@@ -510,6 +510,15 @@
 	</div>
 
 	<style>
+		.card {
+			width: 40vw;
+		}
+
+		.tp-card {
+			gap: 4vw;
+			/* flex-wrap: wrap; */
+		}
+
 		.card-img-top {
 			height: 200px;
 			object-fit: cover;
@@ -545,6 +554,25 @@
 			border-radius: 4px;
 			font-size: 18px;
 			margin-top: 10px;
+		}
+
+		@media (max-width: 1100px) {
+			.tp-card {
+				flex-wrap: wrap;
+			}
+		}
+
+		@media (max-width: 700px) {
+			.tp-card {
+				flex-direction: column;
+				align-items: center;
+				gap: 4vh;
+				flex-wrap: wrap;
+			}
+
+			.card {
+				width: 93vw !important;
+			}
 		}
 	</style>
 	<!-- tour packages end -->
