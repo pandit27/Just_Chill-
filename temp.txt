@@ -1,0 +1,21 @@
+<!-- card 4 -->
+					<div class="card bg-light mb-3" style="max-height: 100vh;">
+						<div>
+							<img src="https://a6e8z9v6.stackpathcdn.com/zurf/scuba/wp-content/uploads/sites/2/2022/08/shutterstock_1475734379-700x500.jpg"
+								class="card-img-top" alt="Jet Skiing">
+						</div>
+					</div>
+					<!-- card 5 -->
+					<div class="card bg-light mb-3" style="max-height: 100vh;">
+						<div>
+							<img src="https://a6e8z9v6.stackpathcdn.com/zurf/scuba/wp-content/uploads/sites/2/2022/08/shutterstock_1475734379-700x500.jpg"
+								class="card-img-top" alt="Jet Skiing">
+						</div>
+					</div>
+					<!-- card 6 -->
+					<div class="card bg-light mb-3" style="max-height: 100vh;">
+						<div>
+							<img src="https://a6e8z9v6.stackpathcdn.com/zurf/scuba/wp-content/uploads/sites/2/2022/08/shutterstock_1475734379-700x500.jpg"
+								class="card-img-top" alt="Jet Skiing">
+						</div>
+					</div>
