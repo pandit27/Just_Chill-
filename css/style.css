@@ -1888,8 +1888,10 @@ textarea.form-control {
 /* bestselling packages start */
 .yorum {
   display: flex;
-  height: 100vh;
+  height: fit-content;
   align-items: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .card {
