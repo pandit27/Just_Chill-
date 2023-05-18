@@ -586,6 +586,7 @@
 @media (max-width: 700px) {
   .myFooter {
     background-image: url("https://github.com/AstroDeveloper1010/Just_Chill-/blob/master/images/bg_4.jpg?raw=true") !important;
+    max-height: fit-content;
   }
 }
 /* footer end */
