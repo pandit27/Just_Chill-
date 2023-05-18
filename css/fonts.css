@@ -52,3 +52,7 @@
 .zoom-hover:hover {
   transform: scale(1.1);
 }
+
+.zoom-hover-2:hover {
+  transform: scale(1.2) !important;
+}

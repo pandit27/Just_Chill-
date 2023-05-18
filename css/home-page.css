@@ -504,7 +504,7 @@
 
 .card-tp .package-details .detail-item {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 5px;
 }
 
@@ -524,7 +524,7 @@
 }
 
 /* Responsive styles */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .container-tp {
     width: 100vw;
     justify-content: center;
@@ -534,6 +534,10 @@
     width: 90vw !important;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .card-tp .details .title {
+    font-size: 30px;
   }
 }
 /* tour package card end */
