@@ -581,3 +581,17 @@
   cursor: pointer;
 }
 /* modal window end */
+
+/* overlay 2 start */
+.overlay-2 {
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .1;
+    background: #000000;
+    z-index: -1;
+}
+/* overlay 2 end */
