@@ -392,12 +392,6 @@
   justify-content: space-evenly;
 }
 
-@media (max-width: 700px) {
-  .container-tp {
-    /* flex-direction: column; */
-  }
-}
-
 /* Card container */
 .card-tp {
   display: flex;
