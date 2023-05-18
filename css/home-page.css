@@ -457,7 +457,7 @@
 /* Book now button */
 .card-tp .book-now {
   padding: 10px 20px;
-  background-color: #f44336;
+  background-color: #4f9bd4;
   color: white;
   font-weight: bold;
   border: none;
@@ -524,16 +524,4 @@
     margin-right: auto;
   }
 }
-
-/* @media (min-width: 56rem) {
-  .card-tp {
-    width: 100%;
-  }
-}
-
-@media (min-width: 40rem) {
-  .card-tp {
-    width: 50%;
-  }
-} */
 /* tour package card end */
