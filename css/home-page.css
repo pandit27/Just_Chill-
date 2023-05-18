@@ -512,6 +512,17 @@
   margin-right: 5px;
 }
 
+.sd-price {
+  background: #01539d;
+  color: #faeaeb;
+  font-size: 20px;
+  font-weight: 700;
+  height: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 12px;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 600px) {
   .container-tp {
