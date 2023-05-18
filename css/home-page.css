@@ -384,3 +384,164 @@
   }
 }
 /* flip card end */
+
+/* tour package card start */
+.container-tp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 700px) {
+  .container-tp {
+    /* flex-direction: column; */
+  }
+}
+
+/* Card container */
+.card-tp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+}
+
+/* Package image */
+.card-tp img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Package details */
+.card-tp .details {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Package title */
+.title {
+  color: #000;
+}
+
+.card-tp .details .title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Price container */
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Previous price */
+.previous-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Current price */
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Book now button */
+.card-tp .book-now {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-tp .book-now:hover {
+  background-color: #e53935;
+}
+
+/* 30% off sticker */
+.card-tp .discount-sticker {
+  position: absolute;
+  top: 10px;
+  left: 20%;
+  background-color: #f44336;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Package features */
+.card-tp .features {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.card-tp .features .feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card-tp .features .feature i {
+  margin-right: 5px;
+}
+
+/* Package details */
+.card-tp .package-details {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.card-tp .package-details .detail-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.card-tp .package-details .detail-item i {
+  margin-right: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .container-tp {
+    width: 100vw;
+    justify-content: center;
+  }
+  .card-tp {
+    width: 90vw !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* @media (min-width: 56rem) {
+  .card-tp {
+    width: 100%;
+  }
+}
+
+@media (min-width: 40rem) {
+  .card-tp {
+    width: 50%;
+  }
+} */
+/* tour package card end */
