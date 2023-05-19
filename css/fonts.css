@@ -45,6 +45,10 @@
   font-family: "SF Pro Display", sans-serif !important;
 }
 
+.poppins-font {
+  font-family: "Poppins", Arial, sans-serif;
+}
+
 .txt-steel-blue {
   color: steelblue !important;
 }
