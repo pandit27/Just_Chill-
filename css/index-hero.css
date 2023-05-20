@@ -17,6 +17,20 @@
   opacity: 0.3;
   background: #000000;
 }
+
 .hero-wrap.hero-wrap-2 .overlay {
   width: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero-wrap .overlay {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-wrap .overlay {
+    opacity: 0.7;
+  }
 }
