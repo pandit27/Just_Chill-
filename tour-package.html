@@ -58,17 +58,34 @@
   <!-- navbar end -->
 
   <!-- whatsapp popup start -->
-  <div class="whatsapp-popup">
-    <a href="https://api.whatsapp.com/send?phone=919315225570&text=Hello,its%20great%20to%20know%20about%20scubadivingcenter.in%20Help%20me%20with%20the%20package%20details%20and%20further%20process."
-      target="_blank">
-      <img src="images/whatsapp_logo.webp" alt="whatsapp icon" loading="lazy" class="w-100 img-fluid">
-    </a>
-  </div>
+  <a href="https://api.whatsapp.com/send?phone=919315225570&text=Hello,its%20great%20to%20know%20about%20scubadivingcenter.in%20Help%20me%20with%20the%20package%20details%20and%20further%20process."
+    target="_blank" class="whatsapp-icon">
+    <img src="images/whatsapp_logo.webp" alt="WhatsApp">
+  </a>
+  <style>
+    .whatsapp-icon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
+
+    .whatsapp-icon img {
+      width: 50px;
+      height: auto;
+      border-radius: 50%;
+      /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+      transition: transform 0.3s ease;
+    }
+
+    .whatsapp-icon img:hover {
+      transform: scale(1.2);
+    }
+  </style>
   <!-- whatsapp popup end -->
 
   <!-- hero section start -->
-  <section class="hero-section"
-    style="background-image: url('https://cdn.pixabay.com/photo/2016/07/29/18/24/water-1555170_960_720.jpg');">
+  <section class="hero-section" style="background-image: url(images/assets/goa-tour-package-hero-section.jpg);">
     <!-- weather card start -->
     <div class="weather-display w_card">
       <div class="weather-card">

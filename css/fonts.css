@@ -60,3 +60,8 @@
 .zoom-hover-2:hover {
   transform: scale(1.2) !important;
 }
+
+.btn-bn-hp {
+  border-radius: 20px;
+  margin-left: 30%;
+}
