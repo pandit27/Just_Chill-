@@ -608,11 +608,15 @@ textarea {
 
 input[type="checkbox"] + label {
   color: #ccc;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 input[type="checkbox"]:checked + label {
-  color: #f00;
+  /* color: #f00; */
   font-style: normal;
 }
 /* contact us end */
+
+/* testimonials start */
+#client-testimonial-carousel {min-height: 200px;}
+/* testimonials end */
