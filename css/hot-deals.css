@@ -443,3 +443,26 @@
   }
 }
 /* special card end */
+
+/* packages start */
+.img-activities {
+  height: 48vh !important;
+  width: 100vw !important;
+}
+
+@media (max-width: 770px) {
+  .img-activities {
+    height: 35vh !important;
+  }
+}
+@media (max-width: 900px) {
+  .img-activities {
+    height: 45vh !important;
+  }
+}
+@media (max-width: 1000px) {
+  .img-activities {
+    height: 35vh !important;
+  }
+}
+/* packages end */
