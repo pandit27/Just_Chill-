@@ -65,3 +65,28 @@
   border-radius: 20px;
   margin-left: 30%;
 }
+
+/* whatsapp start */
+.float-w {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff !important;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float-w:hover .my-float-w {
+  color: #008bfd;
+}
+
+.my-float-w {
+  margin-top: 16px;
+}
+/* whatsapp end */

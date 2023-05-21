@@ -2109,52 +2109,6 @@ textarea.form-control {
 }
 /* ocean wave end */
 
-/* whatsapp start */
-.whatsapp-popup {
-  position: fixed;
-  bottom: 5%;
-  right: 0.5%;
-  z-index: 999;
-  transition: all 0.3s ease-in-out;
-  opacity: 0;
-}
-
-.whatsapp-popup:hover {
-  transform: scale(1.1);
-}
-
-.whatsapp-popup img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); */
-}
-
-@media only screen and (max-width: 600px) {
-  .whatsapp-popup {
-    bottom: 4%;
-    right: 4%;
-  }
-
-  .whatsapp-popup img {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .whatsapp-popup {
-    bottom: 3%;
-    right: 3%;
-  }
-
-  .whatsapp-popup img {
-    width: 40px;
-    height: 40px;
-  }
-}
-/* whatsapp end */
-
 /* statistics start */
 .sectionClass {
   padding: 20px 0px 50px 0px;
