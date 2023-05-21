@@ -69,43 +69,6 @@
   <!-- hero section start -->
   <section class="hero-section"
     style="background-image: url('https://images.thrillophilia.com/image/upload/s--CH31xXpZ--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/106/252/original/1484815065_little-cayman-29.jpg.jpg');">
-    <!-- weather card start -->
-    <div class="weather-display w_card" style="z-index: 5;">
-      <div class="weather-card">
-        <div class="weather-icon">
-          <img src="" alt="Weather Icon">
-        </div>
-        <div class="weather-info">
-          <h2 class="weather-city" style="color: #000;">Goa</h2>
-          <p class="weather-description" style="color: #000;">-</p>
-          <p class="weather-temp" style="color: #000;">-- °C</p>
-        </div>
-      </div>
-    </div>
-
-    <script>
-      // Fetch weather data from API
-      const apiKey = '1cdc5bf6abf70ae6ca69a708a09393eb'; // Replace with your weather API key
-      const city = 'Goa'; // Change city as needed
-
-      const weatherIcon = document.querySelector('.weather-icon img');
-      const weatherDescription = document.querySelector('.weather-description');
-      const weatherTemp = document.querySelector('.weather-temp');
-
-      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
-        .then(response => response.json())
-        .then(data => {
-          const { weather, main } = data;
-          const { icon, description } = weather[0];
-          const { temp } = main;
-
-          weatherIcon.src = `http://openweathermap.org/img/w/${icon}.png`;
-          weatherDescription.textContent = description;
-          weatherTemp.textContent = `${temp} °C`;
-        })
-        .catch(error => console.error('Error:', error));
-    </script>
-    <!-- weather card end -->
     <div class="overlay"></div>
     <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
       <div class="row align-items-center justify-content-center">
