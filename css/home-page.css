@@ -19,7 +19,7 @@
 }
 
 .card_image:hover .ci-img {
-  height: 100vh !important;
+  height: 45vh !important;
 }
 
 .cards_item:hover button {
