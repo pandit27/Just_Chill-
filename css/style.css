@@ -2353,10 +2353,21 @@ textarea.form-control {
 /* bestselling packages end */
 
 /* footer start */
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   .myFooter {
-    background-image: url("https://github.com/AstroDeveloper1010/Just_Chill-/blob/master/images/bg_4.jpg?raw=true") !important;
+    background-image: url('/images/bg_2.jpg') !important;
     max-height: fit-content;
   }
+
+  .ftco-footer-widget img {
+    height: 25vh !important;
+    width: auto !important;
+    margin-left: 20vw;
+    margin-top: 4vh;
+  }
+
+  /* .block-23 ul li span {
+    color: black !important;
+  } */
 }
 /* footer end */
