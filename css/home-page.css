@@ -1,3 +1,19 @@
+/* goa tour package btn start*/
+.btn-tour-packages {
+  padding: 10px 19px !important;
+  background-color: #004375 !important;
+  color: white !important;
+}
+.btn-tour-packages:hover {
+  background-color: #035390 !important;
+}
+@media (max-width: 767.98px) {
+  .btn-tour-packages {
+    padding: 7px 14px;
+  }
+}
+/* goa tour package btn end */
+
 /* packages start */
 .main {
   max-width: 1200px;
