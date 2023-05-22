@@ -19,32 +19,32 @@ $('#CarouselTest3').carousel({ interval: false }).on('slide.bs.carousel', functi
   }
 });
 
-$('#CarouselTest4').carousel({ interval: false }).on('slide.bs.carousel', function () {
+$('#CarouselTest4').carousel({ interval: false }).on('slide.bs.carousel', function (e) {
   $(this).off('slide.bs.carousel');
   $(this).carousel('pause');
 });
 
-$('#CarouselTest5').carousel({ interval: false }).on('slide.bs.carousel', function () {
+$('#CarouselTest5').carousel({ interval: false }).on('slide.bs.carousel', function (e) {
   $(this).off('slide.bs.carousel');
   $(this).carousel('pause');
 });
 
-$('#CarouselTest6').carousel({ interval: false }).on('slide.bs.carousel', function () {
+$('#CarouselTest6').carousel({ interval: false }).on('slide.bs.carousel', function (e) {
   $(this).off('slide.bs.carousel');
   $(this).carousel('pause');
 });
 
-$('#CarouselTest7').carousel({ interval: false }).on('slide.bs.carousel', function () {
+$('#CarouselTest7').carousel({ interval: false }).on('slide.bs.carousel', function (e) {
   $(this).off('slide.bs.carousel');
   $(this).carousel('pause');
 });
 
-$('#CarouselTest8').carousel({ interval: false }).on('slide.bs.carousel', function () {
+$('#CarouselTest8').carousel({ interval: false }).on('slide.bs.carousel', function (e) {
   $(this).off('slide.bs.carousel');
   $(this).carousel('pause');
 });
 
-$('#CarouselTest9').carousel({ interval: false }).on('slide.bs.carousel', function () {
+$('#CarouselTest9').carousel({ interval: false }).on('slide.bs.carousel', function (e) {
   $(this).off('slide.bs.carousel');
   $(this).carousel('pause');
 });
