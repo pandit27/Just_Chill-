@@ -12,6 +12,21 @@
     padding: 7px 14px;
   }
 }
+
+.ci-fi {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  color: #626262;
+  margin-bottom: 1vh;
+}
+
+@media (max-width: 770px) {
+  .ci-fi {
+    gap: 13vw;
+    justify-content: center;
+  }
+}
 /* goa tour package btn end */
 
 /* packages start */
