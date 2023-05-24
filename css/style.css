@@ -2355,7 +2355,7 @@ textarea.form-control {
 /* footer start */
 @media (max-width: 770px) {
   .myFooter {
-    background-image: url('/images/bg_2.jpg') !important;
+    /* background-image: url("/images/bg_2.webp") !important; */
     max-height: fit-content;
   }
 
