@@ -2353,9 +2353,12 @@ textarea.form-control {
 /* bestselling packages end */
 
 /* footer start */
+.myFooter a:hover {
+  color: #f15d30 !important;
+}
+
 @media (max-width: 770px) {
   .myFooter {
-    /* background-image: url("/images/bg_2.webp") !important; */
     max-height: fit-content;
   }
 
