@@ -836,8 +836,9 @@ hr {
 }
 
 .user-img {
-  max-width: 100%;
-  height: 100px !important;
+  /* max-width: 100%; */
+  width: 80px;
+  height: 80px !important;
   position: relative;
   border-radius: 0 50% 50% 50%;
   background-size: cover;
