@@ -1,3 +1,0 @@
-/* carousel start */
-
-/* carousel end */

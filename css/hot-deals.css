@@ -770,3 +770,90 @@ hr {
   margin: 0;
 }
 /* packages card end */
+
+/* testimonials start */
+.testimonial-section {
+  background: url(/images/testimonial-bg2.webp) no-repeat;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  table-layout: fixed;
+  padding: 150px 0 100px; /* Adjust padding for responsiveness */
+}
+
+.testimonials {
+  text-align: center;
+  width: 100%;
+  max-width: 1118px; /* Set maximum width for testimonials container */
+  margin: 0 auto;
+}
+
+.testimonial {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #00000021;
+}
+
+.testimonial .details span {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.testimonial p {
+  max-width: 770px;
+  margin: 0 auto;
+  text-align: center;
+  color: #eceef4;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.testimonial img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  max-height: fit-content;
+}
+
+.user-img {
+  max-width: 100%;
+  height: 100px !important;
+  position: relative;
+  border-radius: 0 50% 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (max-width: 770px) {
+  /* Apply styles for screens up to 480px wide (phones) */
+  .testimonial-section {
+    padding: 100px 0 50px; /* Adjust padding for responsiveness */
+  }
+
+  .testimonials {
+    width: 90%;
+    max-width: none;
+  }
+}
+/* testimonials end */
