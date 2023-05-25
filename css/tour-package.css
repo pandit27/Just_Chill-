@@ -1,11 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Tajawal");
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Raleway:300");
-@import url("https://fonts.googleapis.com/css?family=Lusitana:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
-
 /* timeline start */
 .timeline-steps {
   display: flex;
