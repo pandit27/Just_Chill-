@@ -155,6 +155,7 @@
   transform-style: preserve-3d;
   transition: transform 700ms 400ms ease-out;
 }
+
 .card-front,
 .card-back {
   width: 100%;
