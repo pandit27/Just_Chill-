@@ -414,6 +414,7 @@
   pointer-events: none;
   transition: transform 400ms ease, opacity 200ms 150ms ease;
 }
+
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-4 {
   opacity: 1;
   pointer-events: auto;
