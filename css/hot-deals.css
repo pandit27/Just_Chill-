@@ -381,6 +381,7 @@
   pointer-events: none;
   transition: transform 400ms ease, opacity 200ms 150ms ease;
 }
+
 .img-6 {
   position: absolute;
   display: block;
