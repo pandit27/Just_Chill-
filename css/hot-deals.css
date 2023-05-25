@@ -72,6 +72,7 @@
   position: absolute;
   left: -9999px;
 }
+
 .pricing:checked + label,
 .pricing:not(:checked) + label {
   position: relative;
