@@ -58,6 +58,11 @@
   border: none;
 }
 
+.cards_item:hover a {
+  background-color: #198e9f;
+  border: none;
+}
+
 .card_image {
   position: relative;
   max-height: 250px;
