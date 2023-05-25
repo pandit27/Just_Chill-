@@ -66,6 +66,11 @@
   margin-left: 30%;
 }
 
+.hd-btn:hover {
+  background-color: #d5ae82 !important;
+  border-color: #d5ae82 !important;
+}
+
 /* whatsapp start */
 .float-w {
   position: fixed;
