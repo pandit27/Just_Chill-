@@ -470,6 +470,7 @@
   z-index: 100;
   transition: all 250ms linear;
 }
+
 .logo img {
   height: 26px;
   width: auto;
