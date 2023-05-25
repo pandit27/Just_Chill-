@@ -168,20 +168,6 @@
 }
 /* card end */
 
-/* bg ocean start */
-.bg-ocean1 {
-  background-image: linear-gradient(
-      to bottom right,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("https://cdn.pixabay.com/photo/2016/12/17/14/33/wave-1913559__340.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 10vh;
-}
-/* bg ocean end */
-
 /* btn hover black bg start */
 .call-to-book:hover {
   background-color: #000 !important;
