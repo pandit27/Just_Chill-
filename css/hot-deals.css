@@ -374,6 +374,7 @@
   pointer-events: auto;
   transition: transform 300ms 1300ms ease, opacity 200ms 1300ms ease;
 }
+
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper .img-3 {
   opacity: 0;
   transform: translate3d(-50px, 5px, 55px) perspective(100px) scale(0.4);
