@@ -1368,6 +1368,7 @@ textarea.form-control {
 .testimony-section .owl-dots,
 .ftco-select-destination .owl-dots {
   text-align: center;
+  display: none;
 }
 .testimony-section .owl-dots .owl-dot,
 .ftco-select-destination .owl-dots .owl-dot {
@@ -1382,7 +1383,6 @@ textarea.form-control {
 .ftco-select-destination .owl-dots .owl-dot.active,
 .ftco-select-destination .owl-dots .owl-dot:focus {
   background: #f15d30;
-  outline: none;
 }
 
 .testimony-wrap {

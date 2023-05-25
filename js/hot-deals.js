@@ -57,3 +57,35 @@ $('#CarouselTest10').on('slide.bs.carousel', function (e) {
   $(this).carousel('pause');
 });
 /* to make the image slide only when the user clicks on next or previous btn end */
+
+
+/* testimonials start */
+// Wait for the document to be ready
+document.addEventListener("DOMContentLoaded", function () {
+  // Function to initialize the carousel
+  function initializeCarousel() {
+    $('.carousel-testimony').owlCarousel({
+      autoplay: true,
+      loop: true,
+      items: 1,
+      margin: 30,
+      stagePadding: 0,
+      nav: true,
+      navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  }
+  // Call the initializeCarousel function
+  initializeCarousel();
+});
+/* testimonials end */
