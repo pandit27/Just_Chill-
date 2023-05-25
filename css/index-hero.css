@@ -23,7 +23,6 @@
   width: 100%;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   .hero-wrap .overlay {
     opacity: 0.4;
