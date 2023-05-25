@@ -229,6 +229,7 @@
 .card-back .pricing-wrap h4:before {
   background: #35a1a9;
 }
+
 @keyframes border-transform {
   0%,
   100% {
