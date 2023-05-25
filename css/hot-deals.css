@@ -177,6 +177,7 @@
 .card-back {
   transform: rotateY(180deg);
 }
+
 .pricing:checked ~ .card-3d-wrap .card-3d-wrapper {
   transform: rotateY(180deg);
   transition: transform 700ms 400ms ease-out;
