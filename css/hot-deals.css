@@ -124,6 +124,7 @@
   border-radius: 2px;
   transition: left 300ms linear;
 }
+
 .pricing:checked + label:after {
   left: 130px;
 }
