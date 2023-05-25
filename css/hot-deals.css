@@ -441,6 +441,7 @@
   transform: translate3d(0, 0, 35px) perspective(100px) scale(1) rotate(10deg);
   transition: transform 400ms 1300ms ease, opacity 300ms 1300ms ease;
 }
+
 .img-7 {
   position: absolute;
   display: block;
