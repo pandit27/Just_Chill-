@@ -182,6 +182,7 @@
   transform: rotateY(180deg);
   transition: transform 700ms 400ms ease-out;
 }
+
 .pricing-wrap {
   position: relative;
   padding-top: 160px;
