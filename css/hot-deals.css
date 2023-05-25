@@ -109,6 +109,7 @@
   top: 0;
   left: 0;
 }
+
 .pricing:checked + label:after,
 .pricing:not(:checked) + label:after {
   position: absolute;
