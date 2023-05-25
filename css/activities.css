@@ -10,12 +10,12 @@
 }
 @media (max-width: 600px) {
   .img-activities {
-    height: 30vh !important;
+    height: 25vh !important;
   }
 }
 @media (max-width: 770px) {
   .img-activities {
-    height: 35vh !important;
+    height: 25vh !important;
   }
 }
 @media (max-width: 900px) {
