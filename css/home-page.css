@@ -136,7 +136,6 @@
   padding: 16px 12px 32px 24px;
   margin: 16px 8px 8px 0;
   max-height: 290px;
-  /* overflow-y: scroll; */
 }
 
 .card_content::-webkit-scrollbar {
