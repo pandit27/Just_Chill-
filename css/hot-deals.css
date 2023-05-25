@@ -96,6 +96,7 @@
   color: #fff;
   text-align: left;
 }
+
 .pricing:checked + label:before,
 .pricing:not(:checked) + label:before {
   position: absolute;
