@@ -82,8 +82,25 @@ document.addEventListener("DOMContentLoaded", function () {
         1000: {
           items: 3
         }
-      }
+      },
+      autoplayTimeout: 5000,
+      onInitialized: handleCarouselInitialized
     });
+    
+    function handleCarouselInitialized(event) {
+      // Get the total number of items in the carousel
+      var totalItems = event.item.count;
+    
+      // Update the navText based on the total items
+      var navText = [];
+      if (totalItems > 1) {
+        navText = ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'];
+      }
+    
+      // Update the navText option
+      $('.carousel-testimony').trigger('replace.owl.carousel', { navText: navText });
+    }
+    
   }
   // Call the initializeCarousel function
   initializeCarousel();
