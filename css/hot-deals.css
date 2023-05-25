@@ -66,6 +66,7 @@
 .full-height {
   min-height: 100vh;
 }
+
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
   position: absolute;
