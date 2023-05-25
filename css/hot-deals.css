@@ -361,6 +361,7 @@
   width: 100%;
   transform: translate3d(0, 0, 15px) perspective(100px);
 }
+
 .img-3 {
   position: absolute;
   display: block;
