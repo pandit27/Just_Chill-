@@ -248,7 +248,6 @@
   -ms-flex-pack: center;
   justify-content: center;
 }
-
 .col {
   width: calc(25% - 2rem);
   margin: 1rem;
