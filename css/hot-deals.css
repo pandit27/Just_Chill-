@@ -225,6 +225,7 @@
   box-shadow: 0 6px 20px 0 rgba(16, 39, 112, 0.3);
   animation: border-transform 6s linear infinite;
 }
+
 .card-back .pricing-wrap h4:before {
   background: #35a1a9;
 }
