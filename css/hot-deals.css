@@ -286,6 +286,7 @@
   color: #102770;
   transform: translate3d(0, 0, 30px) perspective(100px);
 }
+
 .card-back h2,
 .card-back p,
 .card-back h4 {
