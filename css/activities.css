@@ -3,19 +3,10 @@
   width: 100vw !important;
 }
 
-@media (max-width: 450px) {
-  .img-activities {
-    height: 22vh !important;
-  }
-}
-@media (max-width: 600px) {
-  .img-activities {
-    height: 22vh !important;
-  }
-}
+
 @media (max-width: 770px) {
   .img-activities {
-    height: 22vh !important;
+    height: 20vh !important;
   }
 }
 @media (max-width: 900px) {
