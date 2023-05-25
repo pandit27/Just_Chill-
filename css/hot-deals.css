@@ -128,6 +128,7 @@
 .pricing:checked + label:after {
   left: 130px;
 }
+
 .block-diff {
   display: block;
   mix-blend-mode: difference;
