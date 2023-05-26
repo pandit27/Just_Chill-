@@ -394,6 +394,7 @@
   font-family: "Montserrat";
   font-weight: 300;
 }
+
 @media screen and (max-width: 64rem) {
   .col {
     width: calc(33.333333% - 2rem);
