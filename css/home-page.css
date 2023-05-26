@@ -402,6 +402,10 @@
     margin: 0 0 2rem 0;
   }
 }
+
+.in1:hover button {
+  color: rgb(1, 117, 78) !important;
+}
 /* flip card end */
 
 /* tour package card start */
