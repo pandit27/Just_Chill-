@@ -341,6 +341,7 @@
   perspective: inherit;
   z-index: 2;
 }
+
 .container .back {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
