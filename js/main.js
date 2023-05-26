@@ -412,3 +412,27 @@ $(document).ready(function () {
 	});
 });
 /* card flipping end */
+
+/* smooth scrolling start */
+// Select all anchor links starting with '#'
+const anchorLinks = document.querySelectorAll('a[href^="#"]');
+
+// Attach click event listener to each anchor link
+anchorLinks.forEach(link => {
+	link.addEventListener('click', smoothScroll);
+});
+
+// Smooth scroll function
+function smoothScroll(event) {
+	event.preventDefault();
+
+	const targetId = this.getAttribute('href');
+	const targetElement = document.querySelector(targetId);
+
+	// Scroll to the target element smoothly
+	targetElement.scrollIntoView({
+		behavior: 'smooth',
+		block: 'start'
+	});
+}
+/* smooth scrolling end */
