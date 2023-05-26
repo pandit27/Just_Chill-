@@ -223,11 +223,12 @@
 /* flip card start */
 @media (max-width: 500px) {
   .flip-card-container {
-    display: none;
+    /* display: none; */
   }
 }
 .flip-card-container {
-  display: none;
+  /* display: none; */
+  display: flex;
   flex-direction: row;
 }
 .front {
