@@ -387,10 +387,13 @@ $(".project-carousel").owlCarousel({
 $(document).ready(function () {
 	$('.owl-carousel').owlCarousel({
 		loop: true,
+		autoplayHoverPause: true,
 		margin: 10,
 		nav: false,
 		autoplay: true,
-		autoplayTimeout: 3000,
+		margin: 20,
+		rewind: false,
+		autoplayTimeout: 8000,
 		responsive: {
 			0: {
 				items: 1

@@ -60,49 +60,25 @@ $('#CarouselTest10').on('slide.bs.carousel', function (e) {
 
 
 /* testimonials start */
-// Wait for the document to be ready
-document.addEventListener("DOMContentLoaded", function () {
-  // Function to initialize the carousel
-  function initializeCarousel() {
-    $('.carousel-testimony').owlCarousel({
-      autoplay: true,
-      loop: true,
-      items: 1,
-      margin: 30,
-      stagePadding: 0,
-      nav: true,
-      navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 3
-        }
+$(document).ready(function () {
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    autoplay: true,
+    rewind: false,
+    autoplayTimeout: 3000,
+    responsive: {
+      0: {
+        items: 1
       },
-      autoplayTimeout: 5000,
-      onInitialized: handleCarouselInitialized
-    });
-    
-    function handleCarouselInitialized(event) {
-      // Get the total number of items in the carousel
-      var totalItems = event.item.count;
-    
-      // Update the navText based on the total items
-      var navText = [];
-      if (totalItems > 1) {
-        navText = ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'];
+      600: {
+        items: 2
+      },
+      1000: {
+        items: 3
       }
-    
-      // Update the navText option
-      $('.carousel-testimony').trigger('replace.owl.carousel', { navText: navText });
     }
-    
-  }
-  // Call the initializeCarousel function
-  initializeCarousel();
+  })
 });
 /* testimonials end */
