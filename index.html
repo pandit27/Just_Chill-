@@ -36,6 +36,26 @@
 	<link rel="stylesheet" href="css/carousel.css">
 	<link rel="stylesheet" href="css/index-hero.css">
 	<link rel="stylesheet" href="css/home-page.css">
+	<!-- base href -->
+	<base href="/">
+	<script>
+		// Replace the current URL with the desired URL
+		history.replaceState(null, null, '/');
+
+		// Handle browser back/forward button clicks
+		window.addEventListener('popstate', function () {
+			event.preventDefault();
+
+			// Get the target URL from the link's "href" attribute
+			const url = event.target.getAttribute('href');
+
+			// Map /home to /index.html
+			const targetUrl = (url === '/') ? '/index.html' : url;
+
+			// Update the URL using History.js
+			history.pushState(null, null, targetUrl);
+		});
+	</script>
 </head>
 
 <body style="overflow-x: hidden; scroll-behavior: smooth !important;">
