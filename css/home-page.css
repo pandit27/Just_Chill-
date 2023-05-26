@@ -238,7 +238,6 @@
   max-width: 100% !important;
   margin: 0 auto;
   max-width: 80rem;
-  /* flex-direction: column; */
   flex-wrap: wrap;
 }
 
