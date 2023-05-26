@@ -406,6 +406,10 @@
 .in1:hover button {
   color: rgb(1, 117, 78) !important;
 }
+
+.in2:hover button {
+  color: rgb(123, 3, 123) !important;
+}
 /* flip card end */
 
 /* tour package card start */
