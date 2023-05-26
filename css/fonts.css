@@ -69,6 +69,12 @@
   border-color: #d5ae82 !important;
 }
 
+.hr {
+  margin: 24px auto;
+  width: 50px;
+  border-top: 2px solid #c89b3f;
+}
+
 /* whatsapp start */
 .float-w {
   position: fixed;
