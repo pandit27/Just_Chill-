@@ -2370,3 +2370,10 @@ textarea.form-control {
   }
 }
 /* footer end */
+
+
+/* navbar start */
+.navbar-nav .nav-item a:hover {
+  color: #f15d30 !important;
+}
+/* navbar end */
